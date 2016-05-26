@@ -1,0 +1,19 @@
+.pane {
+  background: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-size {
+  font-size: 200px;
+}
+
+.weather-pane {
+  text-align: center;
+}
+
+.weather-temp-text {
+  font-size: 30px;
+  line-height: 30px;
+}

@@ -5,6 +5,8 @@ var concat = require('gulp-concat');
 var sass = require('gulp-sass');
 var minifyCss = require('gulp-minify-css');
 var rename = require('gulp-rename');
+var babel = require('gulp-babel');
+var plumber = require('gulp-plumber');
 var sh = require('shelljs');
 
 var paths = {
